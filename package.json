@@ -1,0 +1,42 @@
+{
+  "name": "generador-de-contrasenas",
+  "version": "1.0.0",
+  "description": "Generador de contraseñas mediante opciones de inclusión (Mayúsculas, Minúsculas, Números, Símbolos)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "generador",
+    "contraseñas",
+    "aleatorio",
+    "clave",
+    "seguridad",
+    "cifrado",
+    "JavaScript",
+    "npm-package",
+    "incluyente",
+    "mezcla",
+    "opciones",
+    "caracteres",
+    "random",
+    "contraseña-segura",
+    "desarrollo-web",
+    "password",
+    "generator",
+    "random",
+    "key",
+    "security",
+    "encryption",
+    "JavaScript",
+    "npm-package",
+    "inclusive",
+    "mix",
+    "options",
+    "characters",
+    "secure-password",
+    "web-development"
+  ],
+  "author": "Leonardo Espejo (Leo-Spj)",
+  "license": "MIT"
+}
