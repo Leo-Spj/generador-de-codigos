@@ -1,6 +1,6 @@
 {
   "name": "generador-de-contrasenas",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "dist-node/index.js",
   "browser": "dist-browser/index.js",
   "description": "Generador de contraseñas mediante opciones de inclusión (Longitud, Mayúsculas, Minúsculas, Números, Símbolos)",
@@ -14,7 +14,8 @@
   "scripts": {
     "build-browser": "tsc src/index.ts --outDir dist-browser --module ES6",
     "build-node": "tsc src/index.ts --outDir dist-node",
-    "build": "npm run build-browser && npm run build-node"
+    "build": "npm run build-browser && npm run build-node",
+    "publish": "npm publish --access public"
   },
   "devDependencies": {
     "typescript": "^5.3.3"
