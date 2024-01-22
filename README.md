@@ -24,6 +24,26 @@ Para utilizar el paquete generador-de-contrasenas, sigue estos pasos:
 3. Importa el paquete en tu código utilizando `require` o `import`, según la sintaxis de tu proyecto.
 
 
+## Uso
+
+La función `generarPassword` recibe 5 parámetros requeridos y devuelve una cadena de texto con la contraseña generada:
+
+1. Longitud de la contraseña (número)
+2. Mayúsculas (booleano)
+3. Minúsculas (booleano)
+4. Números (booleano)
+5. Símbolos (booleano)
+
+Ejemplo:
+
+``` javascript
+import { generarPassword } from 'generador-de-contrasenas';
+
+let contraseña = generarPassword(15, true, true, true, false);
+```
+
+
+
 
 ## Contribución
 
