@@ -1,8 +1,8 @@
 # Generador de Contraseñas
 
-Este proyecto es un generador de contraseñas aleatorias. Puedes utilizarlo para generar contraseñas seguras y difíciles de adivinar.
+Este proyecto es un generador de contraseñas aleatorias. Puedes utilizarlo para generar contraseñas rapidamente y difíciles de adivinar.
 
-[En este proyecto se utiliza el paquete](https://leo-spj.github.io/Password-generator-app/)
+🔑 En este proyecto, ['Password Generator'](https://leo-spj.github.io/Password-generator-app/), se utiliza el paquete.
 
 ## Características
 
@@ -34,14 +34,23 @@ La función `generarPassword` recibe 5 parámetros requeridos y devuelve una cad
 4. Números (booleano)
 5. Símbolos (booleano)
 
-Ejemplo:
+Ejemplos:
+
+CommonJS
+
+``` javascript
+const { generarPassword } = require('generador-de-contrasenas');
+
+console.log(generarPassword(20, true, true, true, false));
+```
+
+ESM  (ES6 Modules)
 
 ``` javascript
 import { generarPassword } from 'generador-de-contrasenas';
 
-let contraseña = generarPassword(15, true, true, true, false);
+console.log(generarPassword(20, true, true, true, false));
 ```
-
 
 
 
