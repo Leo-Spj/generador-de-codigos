@@ -1,10 +1,10 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.generarPassword = void 0;
-var c_mayusculas = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
-var c_munisculas = 'abcdefghijklmnopqrstuvwxyz';
-var c_numeros = '0123456789';
-var c_caracteres = '!@#$%^&*()_+~`|}{[]:;?><,./-=';
+const c_mayusculas = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+const c_munisculas = 'abcdefghijklmnopqrstuvwxyz';
+const c_numeros = '0123456789';
+const c_caracteres = '!@#$%^&*()_+~`|}{[]:;?><,./-=';
 /**
  * Genera una contraseña aleatoria con las opciones especificadas.
  * @param {number} longitud - La longitud deseada de la contraseña.
@@ -18,8 +18,8 @@ function generarPassword(longitud, mayusculas, minusculas, numeros, caracteres) 
     if (longitud <= 0) {
         throw new Error('Longitud no válida.');
     }
-    var caracteresEscogidos = '';
-    var password = '';
+    let caracteresEscogidos = '';
+    let password = '';
     // Se añaden los caracteres que se van a incluir en la contraseña.
     if (mayusculas)
         caracteresEscogidos += c_mayusculas;
@@ -29,9 +29,9 @@ function generarPassword(longitud, mayusculas, minusculas, numeros, caracteres) 
         caracteresEscogidos += c_numeros;
     if (caracteres)
         caracteresEscogidos += c_caracteres;
-    var posicion = 0;
+    let posicion = 0;
     // Se genera la contraseña.
-    for (var i = 0; i < longitud; i++) {
+    for (let i = 0; i < longitud; i++) {
         posicion = Math.floor(Math.random() * caracteresEscogidos.length);
         password += caracteresEscogidos.charAt(posicion);
     }
