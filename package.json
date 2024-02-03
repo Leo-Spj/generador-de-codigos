@@ -1,8 +1,9 @@
 {
   "name": "generador-de-contrasenas",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "main": "dist-node/index.js",
   "browser": "dist-browser/index.js",
+  "types": "src/index.ts",
   "description": "Generador de contraseñas mediante opciones de inclusión [Longitud, Mayúsculas, Minúsculas, Números y Símbolos]",
   "author": "Leonardo Espejo (Leo-Spj)",
   "repository": {
