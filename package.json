@@ -1,6 +1,6 @@
 {
   "name": "generador-de-contrasenas",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "main": "dist-node/index.js",
   "browser": "dist-browser/index.js",
   "description": "Generador de contraseñas mediante opciones de inclusión [Longitud, Mayúsculas, Minúsculas, Números y Símbolos]",
