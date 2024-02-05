@@ -1,10 +1,10 @@
 {
-  "name": "generador-de-contrasenas",
-  "version": "1.0.7",
+  "name": "generador-de-codigos",
+  "version": "2.0.0",
   "main": "dist-node/index.js",
   "browser": "dist-browser/index.js",
   "types": "src/index.ts",
-  "description": "Generador de contraseñas mediante opciones de inclusión [Longitud, Mayúsculas, Minúsculas, Números y Símbolos]",
+  "description": "Generador de codigos mediante opciones de inclusión [Longitud, Mayúsculas, Minúsculas, Números y Símbolos]",
   "author": "Leonardo Espejo (Leo-Spj)",
   "repository": {
     "type": "git",
@@ -22,9 +22,11 @@
     "typescript": "^5.3.3"
   },
   "keywords": [
-    "contraseña",
-    "password",
     "generador",
-    "generator"
+    "códigos",
+    "contraseña",
+    "generator",
+    "codes",
+    "password"
   ]
 }
