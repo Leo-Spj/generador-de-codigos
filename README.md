@@ -17,7 +17,7 @@ Para utilizar el paquete generador-de-codigos, sigue estos pasos:
 2. Ejecuta el comando para instalar el paquete desde el registro de npm.
 
     ``` bash
-    npm i generador-de-codigos
+    npm i generador-de-contrasenas
     ```
 
 
@@ -39,7 +39,7 @@ Ejemplos:
 CommonJS
 
 ``` javascript
-const { genCode } = require('generador-de-codigos');
+const { genCode } = require('generador-de-contrasenas');
 
 console.log( genCode(10, true, false, true, false) );
 ```
@@ -47,7 +47,7 @@ console.log( genCode(10, true, false, true, false) );
 ESM  (ES6 Modules)
 
 ``` javascript
-import { genCode } from 'generador-de-codigos';
+import { genCode } from 'generador-de-contrasenas';
 
 console.log( genCode(10, true, false, true, false) );
 ```
