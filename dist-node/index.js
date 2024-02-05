@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.generarPassword = void 0;
+exports.genCode = void 0;
 const c_mayusculas = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 const c_munisculas = 'abcdefghijklmnopqrstuvwxyz';
 const c_numeros = '0123456789';
@@ -14,7 +14,7 @@ const c_caracteres = '!@#$%^&*()_+~`|}{[]:;?><,./-=';
  * @param {boolean} caracteres - Indica si se deben incluir caracteres especiales en la contraseña.
  * @returns {string} La contraseña generada.
  */
-function generarPassword(longitud, mayusculas, minusculas, numeros, caracteres) {
+function genCode(longitud, mayusculas, minusculas, numeros, caracteres) {
     if (longitud <= 0) {
         throw new Error('Longitud no válida.');
     }
@@ -37,4 +37,4 @@ function generarPassword(longitud, mayusculas, minusculas, numeros, caracteres) 
     }
     return password;
 }
-exports.generarPassword = generarPassword;
+exports.genCode = genCode;

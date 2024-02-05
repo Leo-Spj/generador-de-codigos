@@ -13,7 +13,7 @@ const c_caracteres: string = '!@#$%^&*()_+~`|}{[]:;?><,./-=';
  * @returns {string} La contraseña generada.
  */
 
-export function generarPassword(longitud: number, mayusculas: boolean, minusculas: boolean, numeros: boolean, caracteres: boolean): string {
+export function genCode(longitud: number, mayusculas: boolean, minusculas: boolean, numeros: boolean, caracteres: boolean): string {
         
     if (longitud <= 0) {
         throw new Error('Longitud no válida.');

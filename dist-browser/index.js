@@ -11,7 +11,7 @@ const c_caracteres = '!@#$%^&*()_+~`|}{[]:;?><,./-=';
  * @param {boolean} caracteres - Indica si se deben incluir caracteres especiales en la contraseña.
  * @returns {string} La contraseña generada.
  */
-export function generarPassword(longitud, mayusculas, minusculas, numeros, caracteres) {
+export function genCode(longitud, mayusculas, minusculas, numeros, caracteres) {
     if (longitud <= 0) {
         throw new Error('Longitud no válida.');
     }
