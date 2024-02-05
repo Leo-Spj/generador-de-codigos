@@ -1,6 +1,6 @@
 {
   "name": "generador-de-contrasenas",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "main": "dist-node/index.js",
   "browser": "dist-browser/index.js",
   "types": "src/index.ts",
