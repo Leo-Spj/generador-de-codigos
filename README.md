@@ -1,4 +1,4 @@
-# Generador de Contraseñas
+# Generador de Códigos
 
 Este es un generador de codigos aleatorio. Puedes utilizarlo para generar contraseñas o codigos rapidamente.
 
